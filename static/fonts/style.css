@@ -1,6 +1,33 @@
+@font-face {
+  font-family: 'Test';
+  src: url(fonts/Trushdex.ttf);
+}
+
 h1 {
   font-size: 40;
+  font-family: 'Test', sans-serif;
+  font-weight: normal;
+  color: rgb(0, 0, 255);
+  text-align: center;
+}
+
+h2 {
+  font-size: 30;
   font-family: sans-serif;
   font-weight: normal;
-  color: rgb(0, 0, 255)
+  color: rgb(0, 0, 200);
+  text-align: center;
+}
+
+p {
+  font-size: 10;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: rgb(200, 100, 100);
+  text-align: left;  
+}
+
+#container {
+  max-width: 720px;
+  margin: 0 auto 0 auto; /*Top left bottom right*/
 }
