@@ -19,7 +19,7 @@ h2 {
   text-align: center;
 }
 
-p {
+.bodytext {
   font-size: 40px;
   font-family: sans-serif;
   font-weight: normal;
@@ -27,7 +27,15 @@ p {
   text-align: left;  
 }
 
-body {
+#footer {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: rgb(100, 100, 100);
+  text-align: center;    
+}
+
+body { /*Photo by <a href="https://unsplash.com/@felixmooneeram?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Felix Mooneeram</a> on <a href="https://unsplash.com/photos/red-cinema-chair-evlkOfkQ5rE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*/
   background-image: url("../images/felix-mooneeram-evlkOfkQ5rE-unsplash.jpg"); 
 }
 
@@ -41,3 +49,5 @@ body {
   height: 250px;
   object-fit: cover;
 }
+
+/*IDs are only for single elements. Classes are for multiple elements.*/
